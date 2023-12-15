@@ -1,0 +1,11 @@
+[package]
+name = "printer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-gpu-bridge = { git = "https://github.com/bevy-rust-gpu/rust-gpu-bridge", tag = "v0.5.0" }
+rust-gpu-sdf = { git = "https://github.com/bevy-rust-gpu/rust-gpu-sdf" }
+type-fields = { git = "https://github.com/bevy-rust-gpu/type-fields" }
+
+ansi_term = "0.12.1"
